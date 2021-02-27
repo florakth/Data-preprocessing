@@ -25,3 +25,11 @@ Color card should be 4x6 (like an X-Rite ColorChecker Passport Photo). Spacing c
 Although starting coordinates will be robust for most color cards, unless an entire row or entire column of chips is missing.
 Missing chips may also skew spacing and can also skew starting coordinates.
 Color card isn't tilted. The card can be vertical OR horizontal but if it is tilted there will errors in calculating spacing.
+
+color_correction.ipynb for experiment 
+
+For color correction work:
+1.  Getting the trasformation matrix based on the curret source image and target image:
+get_tranform_matrix.py
+2.  For a new image, apply this trasform matrix to it to get the corrected image:
+apply_transform.py
