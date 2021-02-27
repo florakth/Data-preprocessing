@@ -1,7 +1,7 @@
 # Data-preprocessing
 Color correction
 
-This work is based on the open source Plantcv
+This work is based on the open source Plantcv and belongs to RPL department at KTH.
 
 https://plantcv.readthedocs.io/en/latest/installation/
 https://plantcv.readthedocs.io/en/latest/transform_correct_color/
