@@ -13,7 +13,8 @@ https://medium.com/@kennethjiang/calibrate-fisheye-lens-using-opencv-333b05afa0b
 
 Enviroment: OpenCV, Python3, Numpy
 
-Camera calibration inludes two situations: genral webcamera and fisheye camera
+Camera calibration inludes two situations: genral webcamera and fisheye camera.
+
 For each one, we need recording chessboard images with different positions and different views, please refer to the images folder.
 
 To get matrix from the chessboard images: 
