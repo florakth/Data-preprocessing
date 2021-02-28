@@ -5,6 +5,7 @@ This work includes two parts: Camera calibration and color correction, which bel
 1. Camera calibration
 
 References:
+
 https://docs.opencv.org/master/dc/dbb/tutorial_py_calibration.html
 
 https://docs.opencv.org/3.4/db/d58/group__calib3d__fisheye.html
@@ -16,6 +17,7 @@ Enviroment: OpenCV, Python3, Numpy
 Camera calibration inludes two situations: genral webcamera and fisheye camera.
 
 For each one, we need recording chessboard images with different positions and different views, please refer to the images folder.
+
 The chessboard image here is 10*7, as shown in chessboard.jpg
 
 To get matrix from the chessboard images: 
