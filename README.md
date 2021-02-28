@@ -1,7 +1,28 @@
 # Data-preprocessing
-Color correction
 
-This work is based on the open source Plantcv and belongs to RPL department at KTH.
+This work includes two parts: Camera calibration and color correction, which belongs to RPL department at KTH.
+
+1. Camera calibration
+
+References:
+https://docs.opencv.org/master/dc/dbb/tutorial_py_calibration.html
+https://docs.opencv.org/3.4/db/d58/group__calib3d__fisheye.html
+https://medium.com/@kennethjiang/calibrate-fisheye-lens-using-opencv-333b05afa0b0
+
+Enviroment: OpenCV, Python3, Numpy
+
+Camera calibration inludes two situations: genral webcamera and fisheye camera
+For each one, we need recording chessboard images with different positions and different views, please refer to the images folder.
+
+To get matrix from the chessboard images: 
+Calibration.py or Calibrationfisheye.py
+
+To do calibarion with the matrix:
+DoCalibration.py or DoCalibrationfisheye.py
+
+2. Color correction
+
+This work is based on the open source Plantcv and OpenCV 
 
 https://plantcv.readthedocs.io/en/latest/installation/
 https://plantcv.readthedocs.io/en/latest/transform_correct_color/
