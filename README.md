@@ -70,3 +70,5 @@ get_tranform_matrix.py
 2.  For a new image, apply this trasform matrix to it to get the corrected image:
 
 apply_transform.py
+
+Note that for color correction job, camera calibration on the images needs to be done first.
