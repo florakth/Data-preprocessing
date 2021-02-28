@@ -16,6 +16,7 @@ Enviroment: OpenCV, Python3, Numpy
 Camera calibration inludes two situations: genral webcamera and fisheye camera.
 
 For each one, we need recording chessboard images with different positions and different views, please refer to the images folder.
+The chessboard image here is 10*7, as shown in chessboard.jpg
 
 To get matrix from the chessboard images: 
 Calibration.py or Calibrationfisheye.py
