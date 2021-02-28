@@ -6,7 +6,9 @@ This work includes two parts: Camera calibration and color correction, which bel
 
 References:
 https://docs.opencv.org/master/dc/dbb/tutorial_py_calibration.html
+
 https://docs.opencv.org/3.4/db/d58/group__calib3d__fisheye.html
+
 https://medium.com/@kennethjiang/calibrate-fisheye-lens-using-opencv-333b05afa0b0
 
 Enviroment: OpenCV, Python3, Numpy
